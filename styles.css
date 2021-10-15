@@ -1,0 +1,73 @@
+/* Universal Styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Georama', sans-serif;
+}
+
+body {
+  padding: 20px;
+  background-color: #F7F7F7;
+}
+
+h1 {
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: 500;
+  padding: 10px 0px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0px;
+  padding: 20px;
+  border-radius: 20px;
+  align-items: center;
+  background-color: #FFF;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+}
+
+/* Colours Section Styles */
+
+
+.coloursBlockElements {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.colours .colourBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100px;
+  width: 250px;
+  margin: 10px;
+  font-weight: 500;
+}
+
+
+
+#LIFOffWhite {
+  background-color: #f3f3f3;
+}
+
+#LIFBlue {
+  background-color: #1993cd;
+}
+
+#LIFGrey {
+  background-color: #313131;
+  color: #f1f1f1;
+}
+
+#LIFOrange {
+  background-color: #F6412A;
+}
