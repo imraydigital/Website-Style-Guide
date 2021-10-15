@@ -13,7 +13,7 @@ body {
 }
 
 h1 {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 h2 {
@@ -30,17 +30,28 @@ section {
   align-items: center;
   background-color: #FFF;
   box-shadow: 3px 3px 3px rgba(0,0,0,0.1);
+  font-family: 'Montserrat', sans-serif;
 }
 
-/* Colours Section Styles */
+section h2 {
+  font-weight: 400;
+}
 
-
-.coloursBlockElements {
+.blockElementsRow {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
 }
+
+.blockElementsCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Colours Section Styles */
 
 .colours .colourBlock {
   display: flex;
@@ -52,8 +63,6 @@ section {
   margin: 10px;
   font-weight: 500;
 }
-
-
 
 #LIFOffWhite {
   background-color: #f3f3f3;
@@ -71,3 +80,65 @@ section {
 #LIFOrange {
   background-color: #F6412A;
 }
+
+/* Font Section Styles */
+
+.fontBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+#georama h3, p {
+  font-family: 'Georama', sans-serif;
+  padding: 5px 0px;
+}
+
+#montserrat h3, p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#georamaReg {
+  font-family: 'Georama', sans-serif;
+}
+
+#georamaBold {
+  font-family: 'Georama', sans-serif;
+  font-weight: bold;
+}
+
+#georamaItalic {
+  font-family: 'Georama', sans-serif;
+  font-style: italic;
+}
+
+#montserratReg {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#montserratBold {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+#montserratItalic {
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+}
+
+#sairaReg {
+  font-family: 'Saira', sans-serif;
+}
+
+#sairaBold {
+  font-family: 'Saira', sans-serif;
+  font-weight: bold;
+}
+
+#sairaItalic {
+  font-family: 'Saira', sans-serif;
+  font-style: italic;
+}
+
+/* Text Style Section Styles */
+
